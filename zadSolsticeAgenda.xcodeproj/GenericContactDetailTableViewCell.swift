@@ -1,9 +1,9 @@
 //
-//  GenericContactDetailTableViewCell.swift
-//  SolsticeAgenda
+//  HomeTableViewController.swift
+//  zadSolsticeAgenda
 //
-//  Created by Tobias Lewinzon on 30/11/2019.
-//  Copyright © 2019 Tobias Lewinzon. All rights reserved.
+//  Created by Alejandro De Jesus on 21/01/2020.
+//  Copyright © 2020 Alejandro De Jesus. All rights reserved.
 //
 
 import UIKit

@@ -7,14 +7,11 @@
 //
 
 import Foundation
-
-
-
 import Foundation
 import Alamofire
 
-class ContactService {
-    func getContactsCategotized(completion: @escaping (([String : [Contact]]) -> Void)) { //Service returns a collection of Contacts satisfying the view requirements. Categorized in favorite / !favorite and in ascending alphabetic order.
+class ManagerContact {
+    func getContactsCategotized(completion: @escaping (([String : [Contact]]) -> Void)) {
         let DAO = ContactDAO()
         DAO.getContacts { (ContactsResponse) in
             var favoriteContacts: [Contact] = []

@@ -1,12 +1,13 @@
 //
-//  ContactTableViewCell.swift
-//  SolsticeAgenda
+//  HomeTableViewController.swift
+//  zadSolsticeAgenda
 //
-//  Created by Tobias Lewinzon on 29/11/2019.
-//  Copyright © 2019 Tobias Lewinzon. All rights reserved.
+//  Created by Alejandro De Jesus on 21/01/2020.
+//  Copyright © 2020 Alejandro De Jesus. All rights reserved.
 //
 
 import UIKit
+import Kingfisher
 
 class ContactTableViewCell: UITableViewCell {
     
@@ -42,7 +43,6 @@ class ContactTableViewCell: UITableViewCell {
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
-        // Configure the view for the selected state
     }
 
 }

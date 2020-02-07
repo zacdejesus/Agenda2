@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1921FF7C23D799F60015EEB0 /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1921FF7B23D799F60015EEB0 /* DetailTableViewController.swift */; };
+		1921FF7E23D79A2F0015EEB0 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1921FF7D23D79A2F0015EEB0 /* HomeTableViewController.swift */; };
+		1921FF8023D7A72B0015EEB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1921FF7F23D7A72A0015EEB0 /* Assets.xcassets */; };
 		195F46F023D4B90500E12025 /* contactCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 195F46EF23D4B90500E12025 /* contactCell.xib */; };
 		195F46F623D4BA4F00E12025 /* mainContactDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 195F46F523D4BA4F00E12025 /* mainContactDetailCell.xib */; };
 		195F46F823D4BA5E00E12025 /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195F46F723D4BA5E00E12025 /* ContactTableViewCell.swift */; };
@@ -20,11 +23,14 @@
 		19CFF0F223D3CB0F00B52C8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CFF0F123D3CB0F00B52C8C /* AppDelegate.swift */; };
 		19CFF0F423D3CB0F00B52C8C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CFF0F323D3CB0F00B52C8C /* SceneDelegate.swift */; };
 		19CFF0F623D3CB0F00B52C8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CFF0F523D3CB0F00B52C8C /* ViewController.swift */; };
-		19CFF0FB23D3CB1200B52C8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19CFF0FA23D3CB1200B52C8C /* Assets.xcassets */; };
 		19CFF0FE23D3CB1200B52C8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19CFF0FC23D3CB1200B52C8C /* LaunchScreen.storyboard */; };
+		D5B6D4E83FAC9078D1F632C7 /* Pods_zadSolsticeAgenda.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9B626C5C70C91C8297C4D40 /* Pods_zadSolsticeAgenda.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1921FF7B23D799F60015EEB0 /* DetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
+		1921FF7D23D79A2F0015EEB0 /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		1921FF7F23D7A72A0015EEB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../MODELO/SolsticeAgenda/Assets.xcassets; sourceTree = "<group>"; };
 		195F46EF23D4B90500E12025 /* contactCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = contactCell.xib; sourceTree = "<group>"; };
 		195F46F523D4BA4F00E12025 /* mainContactDetailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = mainContactDetailCell.xib; path = zadSolsticeAgenda.xcodeproj/mainContactDetailCell.xib; sourceTree = SOURCE_ROOT; };
 		195F46F723D4BA5E00E12025 /* ContactTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactTableViewCell.swift; path = zadSolsticeAgenda.xcodeproj/ContactTableViewCell.swift; sourceTree = SOURCE_ROOT; };
@@ -39,9 +45,11 @@
 		19CFF0F123D3CB0F00B52C8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19CFF0F323D3CB0F00B52C8C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		19CFF0F523D3CB0F00B52C8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		19CFF0FA23D3CB1200B52C8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19CFF0FD23D3CB1200B52C8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		19CFF0FF23D3CB1200B52C8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37B9B071802D47B304739A3A /* Pods-zadSolsticeAgenda.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zadSolsticeAgenda.debug.xcconfig"; path = "Target Support Files/Pods-zadSolsticeAgenda/Pods-zadSolsticeAgenda.debug.xcconfig"; sourceTree = "<group>"; };
+		C9B626C5C70C91C8297C4D40 /* Pods_zadSolsticeAgenda.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zadSolsticeAgenda.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA9968D326E37B16DA04B4E7 /* Pods-zadSolsticeAgenda.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zadSolsticeAgenda.release.xcconfig"; path = "Target Support Files/Pods-zadSolsticeAgenda/Pods-zadSolsticeAgenda.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5B6D4E83FAC9078D1F632C7 /* Pods_zadSolsticeAgenda.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +67,8 @@
 		195F46E823D48E8C00E12025 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				1921FF7B23D799F60015EEB0 /* DetailTableViewController.swift */,
+				1921FF7D23D79A2F0015EEB0 /* HomeTableViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -67,6 +78,8 @@
 			children = (
 				19CFF0F023D3CB0F00B52C8C /* zadSolsticeAgenda */,
 				19CFF0EF23D3CB0F00B52C8C /* Products */,
+				ABD8A5897605A1BFA06C22AF /* Pods */,
+				A0BFB78BE7D4B6297E41BCF7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -87,7 +100,7 @@
 				19CFF0F123D3CB0F00B52C8C /* AppDelegate.swift */,
 				19CFF0F323D3CB0F00B52C8C /* SceneDelegate.swift */,
 				19CFF0F523D3CB0F00B52C8C /* ViewController.swift */,
-				19CFF0FA23D3CB1200B52C8C /* Assets.xcassets */,
+				1921FF7F23D7A72A0015EEB0 /* Assets.xcassets */,
 				19CFF0FC23D3CB1200B52C8C /* LaunchScreen.storyboard */,
 				19CFF0FF23D3CB1200B52C8C /* Info.plist */,
 			);
@@ -118,6 +131,23 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		A0BFB78BE7D4B6297E41BCF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9B626C5C70C91C8297C4D40 /* Pods_zadSolsticeAgenda.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABD8A5897605A1BFA06C22AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37B9B071802D47B304739A3A /* Pods-zadSolsticeAgenda.debug.xcconfig */,
+				DA9968D326E37B16DA04B4E7 /* Pods-zadSolsticeAgenda.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -125,9 +155,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 19CFF10223D3CB1200B52C8C /* Build configuration list for PBXNativeTarget "zadSolsticeAgenda" */;
 			buildPhases = (
+				88AD248042405E41B6509941 /* [CP] Check Pods Manifest.lock */,
 				19CFF0EA23D3CB0F00B52C8C /* Sources */,
 				19CFF0EB23D3CB0F00B52C8C /* Frameworks */,
 				19CFF0EC23D3CB0F00B52C8C /* Resources */,
+				9E82107A129656F69D627C45 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -180,12 +212,54 @@
 				195F46F023D4B90500E12025 /* contactCell.xib in Resources */,
 				19CFF0FE23D3CB1200B52C8C /* LaunchScreen.storyboard in Resources */,
 				195F46FF23D4BD0500E12025 /* Main.storyboard in Resources */,
+				1921FF8023D7A72B0015EEB0 /* Assets.xcassets in Resources */,
 				195F46F623D4BA4F00E12025 /* mainContactDetailCell.xib in Resources */,
-				19CFF0FB23D3CB1200B52C8C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		88AD248042405E41B6509941 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-zadSolsticeAgenda-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E82107A129656F69D627C45 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-zadSolsticeAgenda/Pods-zadSolsticeAgenda-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-zadSolsticeAgenda/Pods-zadSolsticeAgenda-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-zadSolsticeAgenda/Pods-zadSolsticeAgenda-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		19CFF0EA23D3CB0F00B52C8C /* Sources */ = {
@@ -193,11 +267,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				195F46FA23D4BAB000E12025 /* GenericContactDetailTableViewCell.swift in Sources */,
+				1921FF7E23D79A2F0015EEB0 /* HomeTableViewController.swift in Sources */,
 				195F470323D4C23200E12025 /* constants.swift in Sources */,
 				195F46F823D4BA5E00E12025 /* ContactTableViewCell.swift in Sources */,
 				195F470123D4BECA00E12025 /* MianContactDetailTableViewCell.swift in Sources */,
 				195F470523D4C33500E12025 /* Contact.swift in Sources */,
 				19CFF0F623D3CB0F00B52C8C /* ViewController.swift in Sources */,
+				1921FF7C23D799F60015EEB0 /* DetailTableViewController.swift in Sources */,
 				19CFF0F223D3CB0F00B52C8C /* AppDelegate.swift in Sources */,
 				195F470723D4C63B00E12025 /* ManagerContact.swift in Sources */,
 				19CFF0F423D3CB0F00B52C8C /* SceneDelegate.swift in Sources */,
@@ -342,6 +418,7 @@
 		};
 		19CFF10323D3CB1200B52C8C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37B9B071802D47B304739A3A /* Pods-zadSolsticeAgenda.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -360,6 +437,7 @@
 		};
 		19CFF10423D3CB1200B52C8C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA9968D326E37B16DA04B4E7 /* Pods-zadSolsticeAgenda.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

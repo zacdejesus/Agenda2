@@ -11,5 +11,5 @@ import Foundation
 
 
 struct k {
-    let url = "https://s3.amazonaws.com/technical-challenge/v3/contacts.json"
+    static let url = "https://s3.amazonaws.com/technical-challenge/v3/contacts.json"
 }
